@@ -1,0 +1,93 @@
+.fixsticky {
+  /* background-color: blue; */
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  margin-top: 4.6rem;
+  /* width: 15%; */
+}
+.sidebarcontainer {
+  /* padding: 0.6rem 2rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* padding-top: 1.2rem; */
+  width: 15%;
+  /* background-color: red; */
+}
+
+.minsidebar {
+  /* width: 6%; */
+  /* padding: 0.6rem 2rem; */
+  padding-left: 2rem;
+  /* padding-right: 2rem; */
+}
+
+.sidebar1 {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hr {
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  width: 10rem;
+}
+
+.subscribe {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.sidebar2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.sidebar2 img {
+  height: 1.6rem;
+  border-radius: 50%;
+}
+.sidebar1 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.minsidebar .sidebar1 p {
+  display: none;
+}
+
+.minsidebar .sidebar2 p {
+  display: none;
+}
+
+.minsidebar .subscribe {
+  display: none;
+}
+
+.minsidebar hr {
+  margin-bottom: 1.2rem;
+  width: 1.8rem;
+}
+
+.side .active {
+  border-bottom: 0.1rem solid red;
+  margin-bottom: 0.3rem;
+}
+
+.sidebar1 img {
+  height: 1.6rem;
+}
+
+.sidebar1 .active img {
+  height: 1.6rem;
+  margin-right: 1rem;
+}
+
+

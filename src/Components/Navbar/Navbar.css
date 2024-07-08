@@ -1,0 +1,62 @@
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 2rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  background-color: white;
+  z-index: 99;
+  margin-bottom: 0.2rem;
+}
+
+.nav1 {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.nav1 img {
+  height: 1.6rem;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(189, 172, 172);
+  border-radius: 1.5rem;
+  /* gap: 15rem; */
+  padding: 0.3rem 2rem;
+  background: transparent;
+}
+
+.nav2 img {
+  height: 1rem;
+}
+
+.navjack {
+  border-radius: 50%;
+}
+
+.nav3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.7rem;
+}
+
+.nav3 img {
+  height: 1.6rem;
+}
+
+.jackimage {
+  border-radius: 50%;
+}
+
+.nav2 input {
+  border: none;
+  outline: none;
+  height: 1.6rem;
+  background: transparent;
+  width: 28rem;
+}

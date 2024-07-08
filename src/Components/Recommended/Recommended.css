@@ -1,0 +1,32 @@
+.video-des {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.recommendedsection {
+  max-width: 31%;
+  padding: 2rem;
+}
+
+.recommed-video {
+  display: flex;
+  column-gap: 0.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.recommed-video img {
+  width: 11rem;
+  border-radius: 0.6rem;
+}
+
+.recommendedviews {
+  color: black;
+  font-size: 0.7rem;
+}
+
+.recommendtitle {
+  color: black;
+  font-size: 0.7rem;
+}
